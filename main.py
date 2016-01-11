@@ -80,7 +80,8 @@ class MainPage(webapp2.RequestHandler):
         self.response.content_type = 'text/html'
         self.response.write("""
 <!doctype html>
-<html><body>
+<html><head><title>Isreal Consulting</title></head>
+<body>
 <form method="POST">
 <input type="text" name="recipient" placeholder="Enter recipient email">
 <input type="submit" name="submit" value="Send simple email">

@@ -3,9 +3,8 @@
 # https://developers.google.com/appengine/docs/python/config/appconfig
 # for details.
 
-# TODO: Enter your application id below. If you have signed up
-# using cloud.google.com/console use the "project id" for your application
-# id.
+# Isreal Consulting code site - python version
+# Copyright 2016 Isreal Consulting, LLC.  All rights reserved.  See LICENSE.
 application: codepy27
 version: 1
 runtime: python27
