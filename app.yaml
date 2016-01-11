@@ -17,8 +17,6 @@ handlers:
   static_dir: css
 - url: /js
   static_dir: js
-- url: /lib
-  static_dir: lib
   
 # This handler tells app engine how to route requests to a WSGI application.
 - url: /.*   # This regex directs all routes to main.app
