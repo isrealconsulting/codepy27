@@ -5,7 +5,7 @@
 
 # Isreal Consulting code site - python version
 # Copyright 2016 Isreal Consulting, LLC.  All rights reserved.  See LICENSE.
-application: codepy27
+application: codepy-1
 version: 1
 runtime: python27
 api_version: 1
