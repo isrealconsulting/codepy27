@@ -39,10 +39,10 @@ def send_simple_message(recipient):
 
     url = 'https://api.mailgun.net/v3/{}/messages'.format(MAILGUN_DOMAIN_NAME)
     data = {
-        'from': 'Example Sender <mailgun@{}>'.format(MAILGUN_DOMAIN_NAME),
+        'from': 'Isreal Consulting Webmaster <webmaster@{}>'.format(MAILGUN_DOMAIN_NAME),
         'to': recipient,
-        'subject': 'This is an example email from Mailgun',
-        'text': 'Test message from Mailgun'
+        'subject': 'This is an example email from ICLLC code site codepy',
+        'text': 'Test message from codepy-1'
     }
 
     resp, content = http.request(url, 'POST', urlencode(data))
@@ -62,8 +62,8 @@ def send_complex_message(recipient):
     data = {
         'from': 'Isreal Consulting Webmaster <webmaster@{}>'.format(MAILGUN_DOMAIN_NAME),
         'to': recipient,
-        'subject': 'This is an example email from Mailgun',
-        'text': 'Test message from Mailgun',
+        'subject': 'This is an example email from ICLLC code site codepy',
+        'text': 'Test message from codepy-1',
         'html': '<html>HTML <strong>version</strong> of the body</html>'
     }
 
