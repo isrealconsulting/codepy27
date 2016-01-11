@@ -1,6 +1,6 @@
-#  codepy27 
-### version 1.0.0
+#codepy27 
+version 1.0.0
 
-### Isreal Consulting, LLC
+###Isreal Consulting, LLC
 
 This is the python version of the code website app engine application.
